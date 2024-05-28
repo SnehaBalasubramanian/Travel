@@ -512,6 +512,13 @@ header {
     }
 
     @media (width < 600px) {
+        .header__image{
+            margin-left: 20px;
+            width: 90%;
+        }
+        .one{
+            width: 80%;
+        }
         .destination__grid {
            grid-template-columns: repeat(2, 1fr);
         }
